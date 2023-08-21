@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from 'next/image';
 import ThemeSwitcher from "@/app/ThemeSwitcher";
 import Link from "next/link";
 import { useState } from "react";
