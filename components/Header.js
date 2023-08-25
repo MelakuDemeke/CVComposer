@@ -33,6 +33,7 @@ const Header = () => {
 				<div id="navbar-collapse-with-animation" className={`hs-collapse ${openMenu ? '' : 'hidden'} overflow-hidden transition-all duration-300 basis-full grow sm:block`}>
 					<div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
 						<Link className={`${currentRoute === '/' ? "text-blue-600 dark:text-blue-500" : "text-gray-500 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"} font-medium  sm:py-6 `} href="/" aria-current="page">Home</Link>
+						<Link className={`${currentRoute === '/' ? "text-blue-600 dark:text-blue-500" : "text-gray-500 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"} font-medium  sm:py-6 `} href="/cvbuilder" aria-current="page">Create CV</Link>
 						<ThemeSwitcher />
 					</div>
 				</div>
