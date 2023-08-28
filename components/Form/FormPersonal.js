@@ -5,11 +5,16 @@ import Card from "../Card/Card";
 import { useDispatch, useSelector } from "react-redux";
 import { Buttons } from "../FormComponents/Buttons";
 import { useWords } from "@/hooks";
+import { setPersonal } from "@/app/GlobalRedux/form";
 
 const FormPersonal = () => {
   const dispatch = useDispatch();
   const { personal } = useSelector((state) => state.form);
   const words = useWords();
+
+  const handleResetData = (setter) => {
+    dispatch(setter({}))
+  }
 
   return (<Card title={words.personal_information}>
     <Formik
@@ -76,8 +81,8 @@ const FormPersonal = () => {
           <Buttons
             dirty={dirty}
             handleReset={handleReset}
-            // handleResetData={handleResetData}
-            // setter={setPersonal}
+            handleResetData={handleResetData}
+            setter={setPersonal}
             state={personal}
             isArray={false}
           />
