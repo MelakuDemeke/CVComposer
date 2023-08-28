@@ -1,5 +1,6 @@
 import { useField } from "formik";
 import { useWords } from "../../hooks";
+import classNames from "classnames";
 
 export default function Select({ label, sizeFull = false, options, ...props }) {
 	const [fields, meta, helpers] = useField(props);
