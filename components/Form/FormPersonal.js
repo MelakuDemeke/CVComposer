@@ -2,7 +2,7 @@ import Card from "../Card/Card";
 
 const FormPersonal = () => {
 	return (
-		<Card>
+		<Card title="Personal Information">
 			
 		</Card>
 	)
