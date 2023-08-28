@@ -1,3 +1,4 @@
+"use client"
 import FormPersonal from "./FormPersonal";
 
 const Form = () => {
