@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 import Providers from "./Providers";
-import stores from "@/stores";
 import { ReduxProviders } from "./GlobalRedux/provider";
 
 export const metadata = {
