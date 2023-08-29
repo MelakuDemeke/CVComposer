@@ -1,4 +1,5 @@
 "use client";
+import PreviewHeader from "./PreviewHeader";
 import PreviewPersonal from "./PreviewPersonal";
 
 const Preview = () => {
@@ -8,7 +9,7 @@ const Preview = () => {
 				<PreviewPersonal />
 			</div>
 			<div className="w-4/6 h-auto min-h-full">
-
+				<PreviewHeader />
 			</div>
 		</div>
 	)
