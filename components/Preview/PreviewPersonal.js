@@ -12,7 +12,11 @@ const PreviewPersonal = () => {
 					<img className="rounded-full" src={photo} alt="" />
 				</div>
 			)}
-			
+			{address && (
+        <div className="flex flex-col mb-2">
+          <strong>{words.address}</strong> {address}
+        </div>
+      )}
 		</div>
 	)
 }
