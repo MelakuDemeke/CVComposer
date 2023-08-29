@@ -11,7 +11,7 @@ const PreviewHeader = () => {
 				<h1 style={{ color: colors.title }} className="text-6xl text-center font-bold tracking-widest">{nameSurname}</h1>
 				<h2 style={{ color: colors.subtitle }} className="mt-2 text-2xl text-center tracking-wider">{title}</h2>
 			</div>
-			{description && <div className="w-full px-6 mt-6 break-words">{description}</div>}
+			{description && <div className="w-full px-6 mt-6 break-words text-justify">{description}</div>}
 		</>
 	)
 }
