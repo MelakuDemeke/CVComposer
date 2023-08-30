@@ -22,7 +22,7 @@ const PreviewExperience = () => {
           <div>
             {item.company}, {item.city}
           </div>
-          <div className="text-sm">{item.description}</div>
+          <div className="text-sm text-justify">{item.description}</div>
         </div>
       ))
     );
