@@ -21,7 +21,7 @@ export default function Home() {
 		<main className="min-h-screen h-auto lg:h-screen flex flex-wrap overflow-hidden">
 			<Form  handlePrint={handlePrint}/>
 			<div className='w-full lg:w-3/5'>
-				<Preview />
+				<Preview ref={printRef}/>
 			</div>
 		</main>
 	)
