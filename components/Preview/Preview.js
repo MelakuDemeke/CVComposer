@@ -72,6 +72,33 @@ const Preview = forwardRef(({ array, ref }) => {
 			</div>
 			<div style={{ color: colors.text2 }} className="w-4/6 h-auto min-h-full">
 				<PreviewHeader />
+				<DragDropContext onDragEnd={handleOnDrugEndRight}>
+					<Droppable droppableId="rightSide">
+						{(provided) => (
+							<div {...provided.droppableProps} ref={provided.innerRef}>
+								{rightSide.map((item, index) => (
+									<Draggable
+										key={`${item.id}`}
+										draggableId={`${item.id}`}
+										index={index}
+										isDragDisabled={isContentEditable}
+									>
+										{(provided) => (
+											<div
+												{...provided.draggableProps}
+												{...provided.dragHandleProps}
+												ref={provided.innerRef}
+											>
+												{previews[item.component]}
+											</div>
+										)}
+									</Draggable>
+								))}
+								{provided.placeholder}
+							</div>
+						)}
+					</Droppable>
+				</DragDropContext>
 			</div>
 		</div>
 	)
