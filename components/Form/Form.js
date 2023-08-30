@@ -6,8 +6,9 @@ import FormLanguage from "./FormLanguage";
 import FormHobbies from "./FormHobbies";
 import FormEducation from "./FormEducation";
 import FormExperience from "./FormExperience";
+import FormTools from "./FormTools";
 
-const Form = () => {
+const Form = ({handlePrint}) => {
 	const dispatch = useDispatch();
 	const handleResetData = (setter) => {
 		dispatch(setter([]));
@@ -15,6 +16,7 @@ const Form = () => {
 
 	return (
 		<div className="bg-slate-100 dark:bg-gray-900 w-full lg:w-2/5 h-full flex flex-col items-start justify-start overflow-auto p-5 xl:p-10">
+			<FormTools handlePrint={handlePrint}/>
 			<FormPersonal />
 			<FormSocial handleResetData={handleResetData} />
 			<FormLanguage handleResetData={handleResetData} />
