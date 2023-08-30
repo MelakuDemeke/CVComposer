@@ -6,6 +6,7 @@ import { setLeftSide, setRightSide } from "@/app/GlobalRedux/site";
 import React, { forwardRef } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import PreviewSocial from "./PreviewSocial";
+import PreviewLanguage from "./PreviewLanguage";
 
 const Preview = forwardRef(({ array, ref }) => {
 	const dispatch = useDispatch();
@@ -30,7 +31,8 @@ const Preview = forwardRef(({ array, ref }) => {
 	};
 
 	const previews = {
-		PreviewSocial: <PreviewSocial />
+		PreviewSocial: <PreviewSocial />,
+		PreviewLanguage: <PreviewLanguage/>
 	}
 
 	return (

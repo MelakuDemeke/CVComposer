@@ -34,3 +34,5 @@ const PreviewLanguage = () => {
 		</div>
 	)
 }
+
+export default PreviewLanguage;
