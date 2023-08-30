@@ -33,8 +33,8 @@ const Preview = forwardRef(({ array, ref }) => {
 
 	const previews = {
 		PreviewSocial: <PreviewSocial />,
-		PreviewLanguage: <PreviewLanguage/>,
-		PreviewHobbies: <PreviewHobbies/>,
+		PreviewLanguage: <PreviewLanguage />,
+		PreviewHobbies: <PreviewHobbies />,
 	}
 
 	return (
