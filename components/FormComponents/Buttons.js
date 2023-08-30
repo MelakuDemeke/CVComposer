@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { useWords } from "@/hooks";
 
 export const Buttons = ({
 	dirty,
@@ -8,11 +9,11 @@ export const Buttons = ({
 	state,
 	isArray = true,
 }) => {
-
+	const words = useWords();
 	return (
 		<>
 			<Button type="submit" variant="info" disabled={!dirty}>
-				Add
+				{words.add}
 			</Button>
 			<Button
 				type="reset"
@@ -20,7 +21,7 @@ export const Buttons = ({
 				onClick={handleReset}
 				disabled={!dirty}
 			>
-				Clear
+				{words.clear}
 			</Button>
 			<Button
 				type="button"
@@ -32,7 +33,7 @@ export const Buttons = ({
 					isArray ? state.length === 0 : Object.keys(state).length === 0
 				}
 			>
-				Clear all
+				{words.clear_all}
 			</Button>
 		</>
 	);

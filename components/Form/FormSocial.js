@@ -9,7 +9,7 @@ import { setSocial } from "@/app/GlobalRedux/form";
 import CardDetail from "../FormComponents/CardDetail";
 
 
-const FormSocial = () => {
+const FormSocial = ({handleResetData}) => {
 	const dispatch = useDispatch();
 	const { social } = useSelector((state) => state.form);
 	const words = useWords();
@@ -56,7 +56,7 @@ const FormSocial = () => {
 						<Buttons
 							dirty={dirty}
 							handleReset={handleReset}
-							// handleResetData={handleResetData}
+							handleResetData={handleResetData}
 							setter={setSocial}
 							state={social}
 						/>
