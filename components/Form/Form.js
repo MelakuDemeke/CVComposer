@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import FormPersonal from "./FormPersonal";
 import FormSocial from "./FormSocial";
 import FormLanguage from "./FormLanguage";
+import FormHobbies from "./FormHobbies";
 
 const Form = () => {
 	const dispatch = useDispatch();
@@ -15,6 +16,7 @@ const Form = () => {
 			<FormPersonal />
 			<FormSocial handleResetData={handleResetData} />
 			<FormLanguage handleResetData={handleResetData} />
+			<FormHobbies handleResetData={handleResetData} />
 		</div>
 	)
 }
