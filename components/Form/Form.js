@@ -5,6 +5,7 @@ import FormSocial from "./FormSocial";
 import FormLanguage from "./FormLanguage";
 import FormHobbies from "./FormHobbies";
 import FormEducation from "./FormEducation";
+import FormExperience from "./FormExperience";
 
 const Form = () => {
 	const dispatch = useDispatch();
@@ -18,7 +19,8 @@ const Form = () => {
 			<FormSocial handleResetData={handleResetData} />
 			<FormLanguage handleResetData={handleResetData} />
 			<FormHobbies handleResetData={handleResetData} />
-			<FormEducation handleResetData={handleResetData} />
+			<FormEducation handleResetData={handleResetData} />,
+			<FormExperience handleResetData={handleResetData} />
 		</div>
 	)
 }
