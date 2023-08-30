@@ -9,6 +9,7 @@ import PreviewSocial from "./PreviewSocial";
 import PreviewLanguage from "./PreviewLanguage";
 import PreviewHobbies from "./PreviewHobbies";
 import PreviewEducation from "./PreviewEducation";
+import PreviewExperience from "./PreviewExperience";
 
 const Preview = forwardRef(({ array, ref }) => {
 	const dispatch = useDispatch();
@@ -37,6 +38,7 @@ const Preview = forwardRef(({ array, ref }) => {
 		PreviewLanguage: <PreviewLanguage />,
 		PreviewHobbies: <PreviewHobbies />,
 		PreviewEducation: <PreviewEducation />,
+		PreviewExperience: <PreviewExperience />,
 	}
 
 	return (
