@@ -11,7 +11,7 @@ import PreviewHobbies from "./PreviewHobbies";
 import PreviewEducation from "./PreviewEducation";
 import PreviewExperience from "./PreviewExperience";
 
-const Preview = forwardRef(({ array, ref }) => {
+const Preview = forwardRef(({ array}, ref) => {
 	const dispatch = useDispatch();
 	const { leftSide, rightSide, colors, isContentEditable } = useSelector(
 		(state) => state.site
