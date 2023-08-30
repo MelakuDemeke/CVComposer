@@ -6,6 +6,7 @@ import { nanoid } from "nanoid";
 import { Select, Input } from "../FormComponents";
 import { Buttons } from "../FormComponents/Buttons";
 import { setSocial } from "@/app/GlobalRedux/form";
+import CardDetail from "../FormComponents/CardDetail";
 
 
 const FormSocial = () => {
@@ -62,7 +63,7 @@ const FormSocial = () => {
 					</Form>
 				)}
 			</Formik>
-			
+			<CardDetail data={social} setter={setSocial} print={["name", "link"]} />
 		</Card>
 	)
 }
