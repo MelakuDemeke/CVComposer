@@ -70,7 +70,7 @@ const Preview = forwardRef(({ array, ref }) => {
 					</Droppable>
 				</DragDropContext>
 			</div>
-			<div style={{ color: colors.text2 }} className="w-4/6 h-auto min-h-full">
+			<div style={{ color: colors.text2 }} className="w-4/6 h-auto min-h-full bg-white">
 				<PreviewHeader />
 				<DragDropContext onDragEnd={handleOnDrugEndRight}>
 					<Droppable droppableId="rightSide">
