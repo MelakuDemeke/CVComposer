@@ -7,6 +7,7 @@ import React, { forwardRef } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import PreviewSocial from "./PreviewSocial";
 import PreviewLanguage from "./PreviewLanguage";
+import PreviewHobbies from "./PreviewHobbies";
 
 const Preview = forwardRef(({ array, ref }) => {
 	const dispatch = useDispatch();
@@ -32,7 +33,8 @@ const Preview = forwardRef(({ array, ref }) => {
 
 	const previews = {
 		PreviewSocial: <PreviewSocial />,
-		PreviewLanguage: <PreviewLanguage/>
+		PreviewLanguage: <PreviewLanguage/>,
+		PreviewHobbies: <PreviewHobbies/>,
 	}
 
 	return (
