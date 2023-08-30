@@ -27,7 +27,7 @@ const PreviewSocial = () => {
 
 				return (
 					<>
-						<div className={styles.item}>
+						<div className="flex">
 							<strong>{item.name}</strong>
 						</div>
 						<div>
@@ -45,8 +45,18 @@ const PreviewSocial = () => {
 	}
 
 	return (
-		<div>
-
+		<div className="flex flex-col w-full">
+			{social.length !== 0 && (
+				<>
+					<div
+						className="p-2 mb-4 mt-4 font-bold text-center tracking-widest"
+						style={{ background: colors.primary, color: colors.titles }}
+					>
+						{words.social_upper}
+					</div>
+					{items}
+				</>
+			)}
 		</div>
 	)
 }
