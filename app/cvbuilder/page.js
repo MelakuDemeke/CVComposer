@@ -18,11 +18,11 @@ export default function Home() {
 	}, [language]);
 
 	return (
-		<main className="min-h-screen h-auto lg:h-screen flex flex-wrap overflow-hidden">
+		<div className="min-h-screen h-auto lg:h-screen flex flex-wrap  overflow-y-auto">
 			<Form handlePrint={handlePrint} />
 			<div className='w-full lg:w-3/5'>
 				<Preview ref={printRef} />
 			</div>
-		</main>
+		</div>
 	)
 }
