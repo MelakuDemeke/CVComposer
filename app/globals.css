@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+    @apply bg-[#373740] text-white;
+}
+
 ::-webkit-scrollbar {
     @apply h-1 w-1;
 }
 
 ::-webkit-scrollbar-track {
-    @apply bg-orange-200;
+    @apply bg-stone-400;
 }
 
 
