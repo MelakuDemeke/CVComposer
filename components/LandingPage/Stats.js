@@ -3,9 +3,6 @@ const Stats = () => {
 	return (
 		<>
 			<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-				<div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-					<h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Stats</h2>
-				</div>
 				<div className="grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
 					<div className="lg:col-span-4">
 						<div className="lg:pr-6 xl:pr-12">
