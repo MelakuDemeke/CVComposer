@@ -11,6 +11,7 @@ import PreviewHobbies from "./PreviewHobbies";
 import PreviewEducation from "./PreviewEducation";
 import PreviewExperience from "./PreviewExperience";
 import PreviewSkills from "./PreviewSkills";
+import PreviewCourses from "./PreviewCourses";
 
 const Preview = forwardRef(({ array}, ref) => {
 	const dispatch = useDispatch();
@@ -41,6 +42,7 @@ const Preview = forwardRef(({ array}, ref) => {
 		PreviewEducation: <PreviewEducation />,
 		PreviewExperience: <PreviewExperience />,
 		PreviewSkills: <PreviewSkills />,
+		PreviewCourses: <PreviewCourses />,
 	}
 
 	return (
