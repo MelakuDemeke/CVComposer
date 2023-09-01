@@ -20,10 +20,10 @@ const Form = ({handlePrint}) => {
 			<FormTools handlePrint={handlePrint}/>
 			<FormPersonal />
 			<FormSocial handleResetData={handleResetData} />
+			<FormEducation handleResetData={handleResetData} />
+			<FormExperience handleResetData={handleResetData} />
 			<FormLanguage handleResetData={handleResetData} />
 			<FormHobbies handleResetData={handleResetData} />
-			<FormEducation handleResetData={handleResetData} />,
-			<FormExperience handleResetData={handleResetData} />
 			<FormSkills handleResetData={handleResetData} />
 		</div>
 	)
