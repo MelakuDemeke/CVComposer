@@ -14,7 +14,7 @@ const FormSkills = ({handleResetData}) => {
 	const words = useWords();
 
 	return (
-		<Card>
+		<Card title={words.skills}>
 			<Formik
         // validationSchema={SkillsSchema}
         initialValues={{
