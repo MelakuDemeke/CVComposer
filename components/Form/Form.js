@@ -8,7 +8,6 @@ import FormEducation from "./FormEducation";
 import FormExperience from "./FormExperience";
 import FormTools from "./FormTools";
 import FormSkills from "./FormSkills";
-import FormCourse from "./FormCourse";
 
 const Form = ({handlePrint}) => {
 	const dispatch = useDispatch();
@@ -22,7 +21,6 @@ const Form = ({handlePrint}) => {
 			<FormPersonal />
 			<FormSocial handleResetData={handleResetData} />
 			<FormEducation handleResetData={handleResetData} />
-			<FormCourse handleResetData={handleResetData} />
 			<FormExperience handleResetData={handleResetData} />
 			<FormLanguage handleResetData={handleResetData} />
 			<FormHobbies handleResetData={handleResetData} />
