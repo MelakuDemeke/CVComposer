@@ -1,8 +1,10 @@
 const Testimonials = () => {
 	return (
 		<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+			<div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+				<h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Testimonials</h2>
+			</div>
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
 				<div className="flex flex-col  bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700">
 					<div className="flex-auto p-4 md:p-6">
 						<p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white">
