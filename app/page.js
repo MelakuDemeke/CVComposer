@@ -1,7 +1,7 @@
-import Features from '@/components/Features'
-import Hero from '@/components/Hero'
-import Stats from '@/components/Stats'
-import Testimonials from '@/components/Testimonials'
+import Features from '@/components/LandingPage/Features'
+import Hero from '@/components/LandingPage/Hero'
+import Stats from '@/components/LandingPage/Stats'
+import Testimonials from '@/components/LandingPage/Testimonials'
 
 export default function Home() {
   return (
