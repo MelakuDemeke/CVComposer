@@ -8,7 +8,11 @@ import CardDetail from "../FormComponents/CardDetail";
 import { Buttons } from "../FormComponents/Buttons";
 import { useWords } from "@/hooks";
 
-const FormSkills = () => {
+const FormSkills = ({handleResetData}) => {
+	const dispatch = useDispatch();
+	const {skills} = useSelector((state) => state.form);
+	const words = useWords();
+
 	return (
 		<Card>
 
