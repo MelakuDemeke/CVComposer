@@ -37,6 +37,34 @@ const Team = () => {
             </a>
           </div>
         </div>
+        <div className="flex flex-col rounded-xl p-4 md:p-6 shadow-md bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
+          <div className="flex items-center gap-x-4">
+            <img className="rounded-full w-20 h-20" src="https://avatars.githubusercontent.com/u/38818398?v=4" alt="Melaku Image" />
+            <div className="grow">
+              <h3 className="font-medium text-gray-800 dark:text-gray-200">
+              Muluken Malako 
+              </h3>
+              <p className="text-xs uppercase text-gray-500">
+                Software Developer
+              </p>
+            </div>
+          </div>
+          <p className="mt-3 text-gray-500">
+            I am an ambitious workaholic, but apart from that, pretty simple person.
+          </p>
+          <div className="mt-3 space-x-1">
+            <a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://www.twitter.com/mulukenmathewo" target='_blank'>
+              <FaTwitter />
+            </a>
+            <a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://github.com/MulukenMathewos" target='_blank'>
+              <FaGithub />
+            </a>
+            <a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://www.linkedin.com/in/mulukenmathewos" target='_blank'>
+              <FaLinkedin />
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   )
