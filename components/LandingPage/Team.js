@@ -39,7 +39,7 @@ const Team = () => {
         </div>
         <div className="flex flex-col rounded-xl p-4 md:p-6 shadow-md bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
           <div className="flex items-center gap-x-4">
-            <img className="rounded-full w-20 h-20" src="https://avatars.githubusercontent.com/u/38818398?v=4" alt="Melaku Image" />
+            <img className="rounded-full w-20 h-20" src="/team/muluken.png" alt="Melaku Image" />
             <div className="grow">
               <h3 className="font-medium text-gray-800 dark:text-gray-200">
               Muluken Malako 
