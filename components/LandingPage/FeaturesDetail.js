@@ -20,7 +20,7 @@ const FeaturesDetail = () => {
 							Our 3 key features
 						</h2>
 						<nav className="grid gap-4 mt-5 md:mt-10">
-							<button onClick={() => onbuttonclick('one')} type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+							<button onClick={() => onbuttonclick('one')} type="button" className={`${activeImage === 'one' ? 'bg-white shadow-md hover:border-transparent dark:bg-slate-900' : ''} text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hover:bg-gray-700 active`}>
 								<span className="flex">
 									<MdDynamicFeed className='w-16 h-16' />
 									<span className="grow ml-6">
@@ -32,7 +32,7 @@ const FeaturesDetail = () => {
 						</nav>
 
 						<nav className="grid gap-4 mt-5 md:mt-10">
-							<button onClick={() => onbuttonclick('two')} type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+							<button onClick={() => onbuttonclick('two')} type="button" className={`${activeImage === 'two' ? 'bg-white shadow-md hover:border-transparent dark:bg-slate-900' : ''} text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hover:bg-gray-700 active`} >
 								<span className="flex">
 									<CiEdit className='w-16 h-16' />
 									<span className="grow ml-6">
@@ -44,7 +44,7 @@ const FeaturesDetail = () => {
 						</nav>
 
 						<nav className="grid gap-4 mt-5 md:mt-10">
-							<button onClick={() => onbuttonclick('three')} type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+							<button onClick={() => onbuttonclick('three')} type="button" className={`${activeImage === 'three' ? 'bg-white shadow-md hover:border-transparent dark:bg-slate-900' : ''} text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hover:bg-gray-700 active`}>
 								<span className="flex">
 									<FaLanguage className='w-16 h-16' />
 									<span className="grow ml-6">
