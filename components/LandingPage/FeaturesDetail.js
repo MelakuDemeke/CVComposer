@@ -5,7 +5,7 @@ import { FaLanguage } from 'react-icons/fa';
 import { useState } from 'react';
 
 const FeaturesDetail = () => {
-	const [activeImage, setActiveImage] = useState('one');
+	const [activeImage, setActiveImage] = useState('two');
 
 	function onbuttonclick(buttonnum) {
 		setActiveImage(buttonnum);
