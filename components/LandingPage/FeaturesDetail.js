@@ -5,8 +5,11 @@ import { FaLanguage } from 'react-icons/fa';
 import { useState } from 'react';
 
 const FeaturesDetail = () => {
-	const [activeImg, setActiveImg] = useState(null)
-
+	const [activeImage, setActiveImage] = useState('one');
+	
+	function onbuttonclick(buttonnum){
+		setActiveImage(buttonnum);
+	}
 
 	return (
 		<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -17,7 +20,7 @@ const FeaturesDetail = () => {
 							Our 3 key features
 						</h2>
 						<nav className="grid gap-4 mt-5 md:mt-10">
-							<button type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+							<button onClick={()=> onbuttonclick('one')} type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
 								<span className="flex">
 									<MdDynamicFeed className='w-16 h-16' />
 									<span className="grow ml-6">
@@ -29,7 +32,7 @@ const FeaturesDetail = () => {
 						</nav>
 
 						<nav className="grid gap-4 mt-5 md:mt-10">
-							<button type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+							<button onClick={()=> onbuttonclick('two')} type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
 								<span className="flex">
 									<CiEdit className='w-16 h-16' />
 									<span className="grow ml-6">
@@ -41,7 +44,7 @@ const FeaturesDetail = () => {
 						</nav>
 
 						<nav className="grid gap-4 mt-5 md:mt-10">
-							<button type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+							<button onClick={()=> onbuttonclick('three')} type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
 								<span className="flex">
 									<FaLanguage className='w-16 h-16' />
 									<span className="grow ml-6">
@@ -56,15 +59,15 @@ const FeaturesDetail = () => {
 					<div className='lg:col-span-6'>
 						<div className="relative">
 							<div>
-								<div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
+								<div className={activeImage !== 'one' ? 'hidden' : ''}  id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
 									<img className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]" src="/features/dynamicedit.png" alt="Image Description" />
 								</div>
 
-								<div id="tabs-with-card-2" className="hidden" role="tabpanel" aria-labelledby="tabs-with-card-item-2">
+								<div className={activeImage !== 'two' ? 'hidden' : ''} id="tabs-with-card-2"  role="tabpanel" aria-labelledby="tabs-with-card-item-2">
 									<img className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]" src="/features/liveedit.png" alt="Image Description" />
 								</div>
 
-								<div id="tabs-with-card-3" className="hidden" role="tabpanel" aria-labelledby="tabs-with-card-item-3">
+								<div className={activeImage !== 'three' ? 'hidden' : ''} id="tabs-with-card-3"  role="tabpanel" aria-labelledby="tabs-with-card-item-3">
 									<img className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]" src="/features/dynamicedit.png" alt="Image Description" />
 								</div>
 							</div>
