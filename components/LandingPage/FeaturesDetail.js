@@ -17,7 +17,7 @@ const FeaturesDetail = () => {
 				<div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
 					<div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
 						<h2 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
-							Our 3 key features
+							Our Key Features
 						</h2>
 						<nav className="grid gap-4 mt-5 md:mt-10">
 							<button onClick={() => onbuttonclick('one')} type="button" className={`${activeImage === 'one' ? 'bg-white shadow-md hover:border-transparent dark:bg-slate-900' : ''} text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hover:bg-gray-700 active`}>
