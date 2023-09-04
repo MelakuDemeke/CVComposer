@@ -22,7 +22,17 @@ const FeaturesDetail = () => {
 							</button>
 						</nav>
 
-					
+						<nav class="grid gap-4 mt-5 md:mt-10">
+							<button type="button" class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
+								<span class="flex">
+									<CiEdit className='w-16 h-16'/>
+									<span class="grow ml-6">
+										<span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Real-Time Preview and Editing</span>
+										<span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Offer real-time CV preview and editing with spell-check, formatting, and section rearrangement options for customization.</span>
+									</span>
+								</span>
+							</button>
+						</nav>
 
 					</div>
 				</div>
