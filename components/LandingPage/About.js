@@ -16,6 +16,11 @@ const About = () => {
 						<p className="text-gray-600 dark:text-gray-400 text-justify">
 							CVComposer is more than a <a>Holberton School</a>  project; it's a personal mission inspired by my own job-hunting experience. Crafting the perfect CV and Cover Letter can be challenging, and I've been there. This project was born from a desire to simplify this process for everyone. I believe that everyone deserves the chance to present their skills effectively, and CVComposer is my way of making that happen.
 						</p>
+						<div className="mt-8 grid gap-5 w-full sm:inline-flex sm:justify-center">
+						<a className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-4 dark:focus:ring-offset-gray-800" href="https://github.com/MelakuDemeke/CVComposer" target='_blank'>
+							<FaGithub className='w-8 h-8' /> Project Github
+						</a>
+					</div>
 					</div>
 				</div>
 				<Team />
