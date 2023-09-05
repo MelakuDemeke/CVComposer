@@ -1,4 +1,4 @@
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import Team from './Team';
 
 const About = () => {
