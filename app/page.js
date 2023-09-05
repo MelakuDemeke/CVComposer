@@ -13,7 +13,7 @@ export default function Home() {
       <Stats />
       <FeaturesDetail />
       <About />
-      <Team />
+      
       <Testimonials />
       <Features />
     </main>
