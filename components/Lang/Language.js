@@ -3,11 +3,18 @@ import { setLanguage } from "@/app/GlobalRedux/language";
 import ReactCountryFlag from "react-country-flag";
 
 const Language = () => {
-    return(
-        <div>
+	const dispatch = useDispatch();
+  const { words, language } = useSelector((state) => state.language);
 
-        </div>
-    )
+  const handleLanguage = () => {
+    dispatch(setLanguage(language === "en" ? "am" : "en"));
+  };
+	
+	return (
+		<div>
+
+		</div>
+	)
 }
 
 export default Language;
