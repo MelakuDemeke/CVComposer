@@ -1,19 +1,78 @@
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
 	return (
-		<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+		<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
 			<div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
 				<h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">About Us</h2>
 			</div>
-			<div class="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
-				<div class="lg:col-span-5 lg:col-start-1">
-					<div class="mb-8">
-						<h2 class="mb-2 text-3xl text-gray-800 font-bold lg:text-4xl dark:text-gray-200">
+			<div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
+				<div className="lg:col-span-5 lg:col-start-1">
+					<div className="mb-8">
+						<h2 className="mb-2 text-3xl text-gray-800 font-bold lg:text-4xl dark:text-gray-200">
 							Inspiration
 						</h2>
-						<p class="text-gray-600 dark:text-gray-400 text-justify">
+						<p className="text-gray-600 dark:text-gray-400 text-justify">
 							CVComposer is more than a <a>Holberton School</a>  project; it's a personal mission inspired by my own job-hunting experience. Crafting the perfect CV and Cover Letter can be challenging, and I've been there. This project was born from a desire to simplify this process for everyone. I believe that everyone deserves the chance to present their skills effectively, and CVComposer is my way of making that happen.
 						</p>
+					</div>
+				</div>
+				
+				<div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
+					<div className="flex w-[25rem] flex-col rounded-xl p-4 md:p-6 shadow-md bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
+						<div className="flex items-center gap-x-4">
+							<img className="rounded-full w-20 h-20" src="https://avatars.githubusercontent.com/u/38818398?v=4" alt="Melaku Image" />
+							<div className="grow">
+								<h3 className="font-medium text-gray-800 dark:text-gray-200">
+									Melaku Demeke
+								</h3>
+								<p className="text-xs uppercase text-gray-500">
+									Software Developer
+								</p>
+							</div>
+						</div>
+						<p className="mt-3 text-gray-500">
+							I am an ambitious workaholic, but apart from that, pretty simple person.
+						</p>
+						<div className="mt-3 space-x-1">
+							<a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://twitter.com/m314ku" target='_blank'>
+								<FaTwitter />
+							</a>
+							<a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://github.com/MelakuDemeke" target='_blank'>
+								<FaGithub />
+							</a>
+							<a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://www.linkedin.com/in/MelakuDemeke" target='_blank'>
+								<FaLinkedin />
+							</a>
+						</div>
+					</div>
+
+					<div className="flex w-[25rem] mt-5 flex-col rounded-xl p-4 md:p-6 shadow-md bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
+						<div className="flex items-center gap-x-4">
+							<img className="rounded-full w-20 h-20" src="/team/muluken.png" alt="Melaku Image" />
+							<div className="grow">
+								<h3 className="font-medium text-gray-800 dark:text-gray-200">
+									Muluken Malako
+								</h3>
+								<p className="text-xs uppercase text-gray-500">
+									Software Developer
+								</p>
+							</div>
+						</div>
+						<p className="mt-3 text-gray-500">
+							I am an ambitious workaholic, but apart from that, pretty simple person.
+						</p>
+						<div className="mt-3 space-x-1">
+							<a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://www.twitter.com/mulukenmathewo" target='_blank'>
+								<FaTwitter />
+							</a>
+							<a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://github.com/MulukenMathewos" target='_blank'>
+								<FaGithub />
+							</a>
+							<a className="inline-flex justify-center items-center text-gray-500 border border-gray-200 w-8 h-8 rounded-md hover:text-gray-800 hover:shadow-sm dark:hover:text-gray-200 dark:border-gray-700 dark:hover:shadow-slate-700/[.7]" href="https://www.linkedin.com/in/mulukenmathewos" target='_blank'>
+								<FaLinkedin />
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

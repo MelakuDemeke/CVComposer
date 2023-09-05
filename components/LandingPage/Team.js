@@ -37,6 +37,7 @@ const Team = () => {
             </a>
           </div>
         </div>
+        
         <div className="flex flex-col rounded-xl p-4 md:p-6 shadow-md bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
           <div className="flex items-center gap-x-4">
             <img className="rounded-full w-20 h-20" src="/team/muluken.png" alt="Melaku Image" />
