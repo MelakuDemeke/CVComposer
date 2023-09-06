@@ -10,6 +10,7 @@ import FormTools from "./FormTools";
 import FormSkills from "./FormSkills";
 import FormCourses from "./FormCourses";
 import FormProjects from "./FormProjects";
+import Language from "../Lang/Language";
 
 const Form = ({handlePrint}) => {
 	const dispatch = useDispatch();
@@ -19,6 +20,7 @@ const Form = ({handlePrint}) => {
 
 	return (
 		<div className="bg-slate-100 dark:bg-gray-900 w-full lg:w-2/5 h-full flex flex-col items-start justify-start overflow-scroll p-5 xl:p-10">
+			<Language />
 			<FormTools handlePrint={handlePrint}/>
 			<FormPersonal />
 			<FormSocial handleResetData={handleResetData} />
