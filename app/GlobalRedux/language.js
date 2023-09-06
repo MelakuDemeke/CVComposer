@@ -5,7 +5,7 @@ export const languageSlice = createSlice({
 	initialState: {
 		words: {
 			en: {
-				set_language: "TÜRKÇE",
+				set_language: "አማርኛ",
 				sample: "SAMPLE",
 				clear_all: "CLEAR ALL",
 				pdf: "PDF",
@@ -82,7 +82,7 @@ export const languageSlice = createSlice({
 				margin_hint: "* you can set print page margins",
 			},
 			am: {
-				set_language: "አማርኛ",
+				set_language: "English",
 				sample: "ናሙና",
 				clear_all: "ሁሉንም አጽዳ",
 				pdf: "PDF",
