@@ -6,6 +6,7 @@ import Team from '@/components/LandingPage/Team'
 import FeaturesDetail from '@/components/LandingPage/FeaturesDetail'
 import About from '@/components/LandingPage/About'
 import Introvideo from '@/components/LandingPage/Introvideo'
+import Footer from '@/components/Common/Footer'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Testimonials />
       <Features />
+      <Footer />
     </main>
   )
 }

@@ -1,6 +1,5 @@
 
 import Header from "@/components/Common/Header";
-import Footer from "@/components/Common/Footer";
 import "./globals.css";
 import Providers from "./Providers";
 import { ReduxProviders } from "./GlobalRedux/provider";
@@ -20,7 +19,6 @@ export default function RootLayout({
           <Providers>
             <Header />
             {children}
-            <Footer />
           </Providers>
         </ReduxProviders>
       </body>
