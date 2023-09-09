@@ -26,7 +26,7 @@ const Features = () => {
 					</div>
 					<div className="mt-5">
 						<h3 className="text-lg font-semibold text-gray-800 dark:text-white">Customizable</h3>
-						<p className="mt-1 text-gray-600 dark:text-gray-400">We allow flexable customization foryour cv</p>
+						<p className="mt-1 text-gray-600 dark:text-gray-400">We allow flexible customization for your cv</p>
 					</div>
 				</div>
 				<div>
