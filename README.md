@@ -22,7 +22,7 @@ The CVComposer MVP includes the following key features:
 
 3. **Design Customization:** Users can customize the design of their CVs and Cover Letters by adjusting colors and fonts to match their preferences.
 
-4. **Preview and Export:** Users can preview their documents in real-time and export them as downloadable PDF files.
+4. **Preview and Export:** Users can preview their documents in real time and export them as downloadable PDF files.
 
 5. **Responsive Design:** The platform is responsive and accessible on various devices, including desktops, tablets, and smartphones.
 
@@ -59,8 +59,8 @@ To run the CVComposer MVP locally for development or testing purposes, follow th
 ## Usage
 
 1. **CV  Creation:**
-   - you will be great by a landing page 
-   - Click on "Create CV" you'll be directed to the dashboard.
+   - You will be great by a landing page 
+   - Click on "Create CV" and you'll be directed to the dashboard.
    - Choose a template and begin customizing your document.
 
 2. **Customization and Preview:**
@@ -81,4 +81,4 @@ To run the CVComposer MVP locally for development or testing purposes, follow th
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the extension as per the terms of the license.
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the project as per the terms of the license.
