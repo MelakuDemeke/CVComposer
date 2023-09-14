@@ -70,6 +70,11 @@ To run the CVComposer MVP locally for development or testing purposes, follow th
 3. **Export:**
    - Once satisfied, click on the "PDF" button to download your CV as a PDF.
 
+## contributors
+<a href="https://github.com/MelakuDemeke/CVComposer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MelakuDemeke/CVComposer" />
+</a>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the extension as per the terms of the license.
