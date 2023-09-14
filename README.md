@@ -69,3 +69,7 @@ To run the CVComposer MVP locally for development or testing purposes, follow th
 
 3. **Export:**
    - Once satisfied, click on the "PDF" button to download your CV as a PDF.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the extension as per the terms of the license.
