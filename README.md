@@ -70,6 +70,10 @@ To run the CVComposer MVP locally for development or testing purposes, follow th
 3. **Export:**
    - Once satisfied, click on the "PDF" button to download your CV as a PDF.
 
+![1](img/1.png)
+![2](img/2.png)
+![3](img/3.png)
+![4](img/4.png)
 ## contributors
 <a href="https://github.com/MelakuDemeke/CVComposer/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MelakuDemeke/CVComposer" />
