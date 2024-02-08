@@ -32,10 +32,10 @@ const Testimonials = () => {
 						</p>
 						<div className="p-4 rounded-b-xl md:px-6">
 							<h3 className="text-sm font-semibold text-gray-800 sm:text-base dark:text-gray-200">
-								Muluken Malako
+								Muluken Mathewos
 							</h3>
 							<p className="text-sm text-gray-500">
-								Frontend Software Developer
+								Backend Software Developer
 							</p>
 						</div>
 					</div>
