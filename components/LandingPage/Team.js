@@ -36,7 +36,7 @@ const Team = () => {
           <img className="rounded-full w-20 h-20" src="/team/muluken.png" alt="Melaku Image" />
           <div className="grow">
             <h3 className="font-medium text-gray-800 dark:text-gray-200">
-              Muluken Malako
+              Muluken Mathewos
             </h3>
             <p className="text-xs uppercase text-gray-500">
               Software Developer
